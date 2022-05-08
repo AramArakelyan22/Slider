@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8313E0B22827F6C200A54BD8 /* CommonSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8313E0B12827F6C200A54BD8 /* CommonSlider.swift */; };
 		83F4D75928242EE800D2D8CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F4D75828242EE800D2D8CD /* AppDelegate.swift */; };
 		83F4D75B28242EE800D2D8CD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F4D75A28242EE800D2D8CD /* SceneDelegate.swift */; };
 		83F4D75D28242EE800D2D8CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F4D75C28242EE800D2D8CD /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8313E0B12827F6C200A54BD8 /* CommonSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonSlider.swift; sourceTree = "<group>"; };
 		83F4D75528242EE800D2D8CD /* Slider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Slider.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83F4D75828242EE800D2D8CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		83F4D75A28242EE800D2D8CD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				83F4D76128242EE900D2D8CD /* Assets.xcassets */,
 				83F4D76328242EE900D2D8CD /* LaunchScreen.storyboard */,
 				83F4D76628242EE900D2D8CD /* Info.plist */,
+				8313E0B12827F6C200A54BD8 /* CommonSlider.swift */,
 			);
 			path = Slider;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				83F4D75D28242EE800D2D8CD /* ViewController.swift in Sources */,
+				8313E0B22827F6C200A54BD8 /* CommonSlider.swift in Sources */,
 				83F4D75928242EE800D2D8CD /* AppDelegate.swift in Sources */,
 				83F4D75B28242EE800D2D8CD /* SceneDelegate.swift in Sources */,
 			);

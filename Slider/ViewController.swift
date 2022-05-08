@@ -53,8 +53,8 @@ extension ViewController {
             label.centerXAnchor.constraint(equalTo: view.centerXAnchor),
             label.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 40),
             
-            slider.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-            slider.centerYAnchor.constraint(equalTo: view.centerYAnchor),
+            slider.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 16),
+            slider.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -16),
             slider.topAnchor.constraint(equalTo: label.topAnchor, constant: 40),
         ])
     }
